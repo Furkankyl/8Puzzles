@@ -34,18 +34,6 @@ public class PuzzlesTest {
 		}
 		
 		
-		i=1;
-		for (int value : bestMemberFittnessArray) {
-
-			if (value == 0) {
-				System.out.print(" " + value);
-				break;
-			}
-			System.out.print(" " + value);
-			if(i%40 == 0)
-				System.out.println();
-			i++;
-
-		}
+		
 	}
 }
